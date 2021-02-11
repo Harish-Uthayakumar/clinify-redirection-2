@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000
 
 app.get('/', function(req, res) {
 
-  res.redirect("https://linktr.ee/clinify")
+  res.redirect("https://www.clinify.in")
 })
 app.get('/whatsapp', function (req, res) {
   res.redirect("https://chat.whatsapp.com/FAtQP4iVpjn5qXKjXLrCKY")
