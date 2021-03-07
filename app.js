@@ -9,11 +9,19 @@ app.get('/', function(req, res) {
   res.redirect("https://www.clinify.in")
 })
 app.get('/whatsapp', function (req, res) {
-  res.redirect("https://chat.whatsapp.com/LFOoYlqOHFELiWoVogopoM")
+  res.redirect("https://chat.whatsapp.com/FAtQP4iVpjn5qXKjXLrCKY")
 })
 
 app.get('/discord', function(req,res) {
     res.redirect("https://discord.gg/ukhrVx4kyp")
+})
+
+app.get('youtube', function(req, res) {
+  res.redirect("https://www.youtube.com/channel/UCSuCYJ_jvzVJYFycR4WIZhw?sub_confirmation=1")
+})
+
+app.get('skill-newsletter', function(req, res) {
+  res.redirect("")
 })
 
 app.listen(port, () => {
