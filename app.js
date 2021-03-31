@@ -16,6 +16,10 @@ app.get('/discord', function(req,res) {
     res.redirect("https://discord.gg/ukhrVx4kyp")
 })
 
+app.get('/voices', function(req, res) {
+  res.redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+})
+
 app.get('youtube', function(req, res) {
   res.redirect("https://www.youtube.com/channel/UCSuCYJ_jvzVJYFycR4WIZhw?sub_confirmation=1")
 })
