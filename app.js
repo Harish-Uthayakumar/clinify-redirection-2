@@ -17,7 +17,7 @@ app.get('/discord', function(req,res) {
 })
 
 app.get('/voices', function(req, res) {
-  res.redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+  res.redirect("https://chat.whatsapp.com/F3Plh58ZSo3KFrU2Fb1ZUK");
 })
 
 app.get('youtube', function(req, res) {
