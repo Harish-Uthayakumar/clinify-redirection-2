@@ -9,16 +9,13 @@ app.get('/', function(req, res) {
   res.redirect("https://www.clinify.in")
 })
 app.get('/whatsapp', function (req, res) {
-  res.redirect("https://chat.whatsapp.com/LsKAptht7UWKqyc4SLHhMD")
+  res.redirect("https://chat.whatsapp.com/E4kEuTMTzpnETSi1btg7EF")
 })
 
 app.get('/discord', function(req,res) {
     res.redirect("https://discord.gg/ukhrVx4kyp")
 })
 
-app.get('/voices', function(req, res) {
-  res.redirect("https://chat.whatsapp.com/E4kEuTMTzpnETSi1btg7EF");
-})
 
 app.get('youtube', function(req, res) {
   res.redirect("https://www.youtube.com/channel/UCSuCYJ_jvzVJYFycR4WIZhw?sub_confirmation=1")
