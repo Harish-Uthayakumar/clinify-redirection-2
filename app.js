@@ -13,7 +13,7 @@ app.get('/whatsapp', function (req, res) {
 })
 
 app.get('/discord', function(req,res) {
-    res.redirect("https://discord.gg/ukhrVx4kyp")
+    res.redirect("https://discord.gg/ad5au7QvKx")
 })
 
 
