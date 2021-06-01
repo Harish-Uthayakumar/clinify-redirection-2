@@ -9,7 +9,7 @@ app.get('/', function(req, res) {
   res.redirect("https://www.clinify.in")
 })
 app.get('/whatsapp', function (req, res) {
-  res.redirect("https://chat.whatsapp.com/EATB0Sm8EAoD4u48gZPbG4")
+  res.redirect("https://chat.whatsapp.com/IX89SEoiKns0P6f9oCwfcs")
 })
 
 app.get('/discord', function(req,res) {
