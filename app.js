@@ -16,7 +16,7 @@ app.get('/discord', function(req,res) {
     res.redirect("https://discord.gg/ad5au7QvKx")
 })
 
-app.get('game', function(req, res) {
+app.get('/game', function(req, res) {
   res.redirect("https://chat.whatsapp.com/DLQBU7xtYJ8IBnOOhZvK2F")
 })
 
